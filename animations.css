@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    --intro1-load-time :600ms;
+    --intro2-load-time : 600ms;
+    --intro3-load-time : 600ms;
+    --buttons-load-time :600ms;
+}
+
+
+
+ .top2{
+    animation: intro-load var(--intro1-load-time) ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+
+
+@keyframes intro-load{
+    0%{
+        transform: translateY(130px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.intro{
+    animation: intro-load-2 var(--intro2-load-time) ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+
+
+@keyframes intro-load-2{
+    0%{
+        transform: translateY(130px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+ .top3{
+animation: intro-load-3 var(--intro3-load-time) ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes intro-load-3{
+    0%{
+         
+        transform: translateY(130px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.hireme, .my-works{
+    animation: buttons-load var(--buttons-load-time) ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes buttons-load{
+    0%{
+        transform: translateY(130px);
+        opacity: 0;
+    }
+    100%{
+       
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
