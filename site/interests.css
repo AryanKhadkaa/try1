@@ -1,0 +1,143 @@
+#myfields{
+    
+    position:relative;
+    width:100%;
+
+}
+.endpage{
+    position: relative;
+    width:100%;
+    height:100%;
+}
+.logos{
+    position: absolute;
+    height:690px;
+    width:100%;
+    top:60px;
+    left:80px;
+}
+
+
+
+.inst1, .inst2, .inst3, .inst4 {
+    font-size:50px;
+    border:0.5px solid ;
+    border-radius:50%;
+
+  }
+  
+
+.inst1{
+    margin-top: 95px;
+    position:absolute;
+    margin-left:150px;
+ 
+    
+
+
+}
+.inst2{
+    margin-top: 95px;
+    position:absolute;
+    margin-left:930px;
+
+ 
+}
+
+.inst3{
+    position:absolute;
+    margin-top:335px;
+    margin-left:150px;
+  
+}
+
+.inst4{
+    position:absolute;
+    margin-top:335px;
+    margin-left:930px;
+ 
+}
+
+   
+
+.html5{
+    position:absolute;
+    margin-left:250px;
+    margin-top:95px;
+    font-size:30px;
+    font-family: 'Poppins',Arial,sans-serif;
+}
+.css3{
+    position:absolute;
+    margin-left:1000px;
+    margin-top:95px;
+    font-size:30px;
+    font-family: 'Poppins',Arial,sans-serif;
+}
+
+.python{
+  
+    position:absolute;
+    margin-left:250px;
+    margin-top:335px;
+    font-size:30px;
+ 
+    font-family: 'Poppins',Arial,sans-serif;
+}
+
+.JS{
+    position:absolute;
+    margin-left:1000px;
+    margin-top:335px;
+    font-size:30px;
+  
+    font-family: 'Poppins',Arial,sans-serif;
+}
+
+
+.html-info{
+    position:absolute;
+    margin-left:250px;
+    margin-top:158px;
+    font-size:20px;
+
+}
+.css-info{
+    position:absolute;
+    margin-left:1000px;
+    margin-top:158px;
+    font-size:20px;
+
+}
+.python-info{
+    position:absolute;
+    margin-left:250px;
+    margin-top:400px;
+    font-size:20px;
+
+}
+
+.JS-info{
+    position:absolute;
+    margin-left:1000px;
+    margin-top:400px;
+    font-size:20px;
+
+}
+.JS-info, .html-info, .css-info, .python-info{
+    visibility: hidden;
+}
+
+.fields-head{
+  
+    font-size:40px;
+    font-family: 'Poppins',Arial,sans-serif;
+    transform:translateY(30px);
+   
+}
+
+.fields-head,.contact-head{
+    color:rgb(139, 112, 15);
+}
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+    <div class="container">
+<div class="user-set">
+    <label class="top-text">Enter the End-Date in the shown format</label>
+    <input id="user-input" type="text" class="set-date"  placeholder="eg: 26 January 2023 12:00 AM">
+
+    <button onclick="submit(),time()" class="sub">Submit
+    <style>
+      .sub{
+      height:45px;
+      width:80px;
+      font-size:18px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background-color: white;
+      border:transparent;
+      border-radius: 20px;
+      cursor:pointer;
+      }
+      .sub:hover{
+        background-color: rgb(152, 122, 16);
+        color:white;
+      }
+    </style>
+    
+    </button>
+   <!-- <button onclick="reset()" class="reset">Reset</button> -->
+</div>
+
+   <div class="headers">
+    <div class="intro">COUNTDOWN TIMER</div>
+    <div id="end-time" class="intro"></div>
+   </div>
+<br>
+    <div class="inputs">
+      <div>
+        <input type="text" class="box" readonly>
+        <label for="">Days</label>      
+      </div>
+      
+      <div>
+        <input type="text" class="box" readonly>
+        <label for="">Hours</label> 
+      </div>
+      <div> 
+        <input type="text" class="box" readonly>
+        <label for="">Minutes</label> 
+      </div>
+      <div> 
+        <input type="text" class="box" readonly>
+        <label for="">Seconds</label> 
+      </div>
+      </div>
+
+</div>
+
+<script src="script2.js"></script>
+</body>
+</html>
